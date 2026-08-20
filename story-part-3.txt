@@ -1,0 +1,93 @@
+" data-i18n="nav_home">الرئيسية</a>
+      <a href="#services" data-i18n="nav_services">خدماتنا</a>
+      <a href="#how" data-i18n="nav_how">كيف تعمل؟</a>
+      <a href="#join" data-i18n="nav_join">انضمي إلينا</a>
+      <a href="#faq" data-i18n="nav_faq">الأسئلة الشائعة</a>
+      <a href="#contact" data-i18n="nav_contact">تواصل معنا</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" id="langToggle" type="button">العربية | English</button>
+      <a class="main-btn small" href="#services" data-i18n="book_now">احجزي الآن</a>
+      <button class="sound-toggle" id="soundToggle" type="button" aria-label="Sound">♪</button>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-intro reveal">
+        <div class="hero-logo-wrap">
+          <img class="hero-logo" src="https://herride.pages.dev/assets/logo.png" alt="HerRide logo" />
+        </div>
+        <div class="hero-copy">
+          
+          <h1 data-i18n="hero_title"><span>رحلتك</span> <span class="neon-word">بأمان</span> <span>تبدأ من هنا</span> <i class="hero-heart">💗💗</i></h1>
+          
+          <div class="hero-buttons">
+            <a class="main-btn" href="#services" data-i18n="hero_book">تعرفي على خدماتنا</a>
+            <a class="ghost-btn" href="#how" data-i18n="hero_watch">كيف تعمل الخدمة</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <img src="https://herride.pages.dev/assets/hero.png" alt="HerRide premium ride hero" />
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-title reveal">
+        <span data-i18n="services_label">خدماتنا</span>
+        <h2 data-i18n="services_title">اختاري خدمة HerRide المناسبة لكِ</h2>
+        <p data-i18n="services_subtitle"></p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card reveal" id="service-ride">
+          <img src="https://herride.pages.dev/assets/daily.jpg" alt="Ride" />
+          <div class="card-body">
+            <h3 data-i18n="daily_title">رحلة</h3>
+            <p data-i18n="daily_desc">مشوار يومي داخل نطاق الخدمة براحة وأمان والتزام.</p>
+            <a class="service-btn book-link" href="https://herride.pages.dev/daily/index.html" data-i18n="daily_btn">احجزي رحلة</a>
+          </div>
+        </article>
+
+        <article class="service-card reveal" id="service-airport">
+          <img src="https://herride.pages.dev/assets/airport.jpg" alt="Airport Transfer" />
+          <div class="card-body">
+            <h3 data-i18n="airport_title">رحلة مطار</h3>
+            <p data-i18n="airport_desc">توصيل آمن ومريح من وإلى المطار مع متابعة للتفاصيل.</p>
+            <a class="service-btn book-link" href="https://herride.pages.dev/airport/index.html" data-i18n="airport_btn">احجزي رحلة مطار</a>
+          </div>
+        </article>
+
+        <article class="service-card reveal" id="service-school">
+          <img src="https://herride.pages.dev/assets/school.jpg" alt="School Ride" />
+          <div class="card-body">
+            <h3 data-i18n="school_title">دورة مدرسية</h3>
+            <p data-i18n="school_desc">تنظيم يومي آمن للمدارس مع خصوصية واهتمام.</p>
+            <a class="service-btn book-link" href="https://tally.so/r/obvAZO" data-i18n="school_btn">احجزي دورة مدرسية</a>
+          </div>
+        </article>
+
+        <article class="service-card reveal" id="service-travel">
+          <img src="https://herride.pages.dev/assets/longtrip.jpg" alt="Out of City Travel" />
+          <div class="card-body">
+            <h3 data-i18n="long_title">رحلة سفر</h3>
+            <p data-i18n="long_desc">رحلات سفر أكثر راحة وتنظيمًا داخل وخارج القاهرة.</p>
+            <a class="service-btn book-link" href="https://herride.pages.dev/longtrip/index.html" data-i18n="long_btn">احجزي رحلة سفر</a>
+          </div>
+        </article>
+
+        <article class="service-card reveal" id="service-training">
+          <img src="https://herride.pages.dev/assets/training.jpg" alt="Driving Lesson" />
+          <div class="card-body">
+            <h3 data-i18n="training_title">تعليم قيادة</h3>
+            <p data-i18n="training_desc">تعلم قيادة بثقة مع مدربات HerRide المحترفات.</p>
+            <a class="service-btn" href="https://herride.pages.dev/academy/index.html" data-i18n="training_btn">احجزي تعليم قيادة</a>
+          </div>
+        </article>
+
+        <article class="service-card reveal" id="service-delivery">
+          <img src="https://herride.pages.dev/assets/delivery.jpg" alt="Order Delivery" />
+          <div class="card-body">
+            <h3 data-i18n="delivery_title">توصيل أوردر</h3>
+            <p data-i18n="delivery_desc">توصيل طلباتك بأم
