@@ -1,0 +1,98 @@
+       <a href="https://t.me/HerRide" target="_blank" rel="noopener"><span class="footer-icon telegram-icon"></span> Telegram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 HerRide. Made with 💖 for every woman on the road.</div>
+  </footer>
+
+  <div class="booking-transition" id="bookingTransition" aria-hidden="true"><div><img src="https://herride.pages.dev/assets/logo.png" alt="HerRide" /><h3 data-i18n="transition_title">نجهز لكِ تجربة حجز آمنة ومريحة</h3><p data-i18n="transition_text">سيتم فتح نموذج الحجز الآن...</p><span class="loader-ring"></span></div></div>
+  <audio id="bgMusic" src="https://herride.pages.dev/assets/audio/herride-theme.mp3" preload="auto" loop></audio>
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top">↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script id="herride-boot-failsafe">
+    (function(){
+      function reveal(){var p=document.getElementById('preloader');if(p){p.classList.add('hide');p.style.pointerEvents='none';}}
+      window.addEventListener('load',function(){setTimeout(reveal,250);},{once:true});
+      setTimeout(reveal,2500);
+      window.addEventListener('error',function(){setTimeout(reveal,50);});
+    })();
+  </script>
+  <script src="https://herride.pages.dev/sound.js"></script>
+  <script src="https://herride.pages.dev/script.js"></script>
+
+<script id="herride-story-motion-js">
+(()=>{
+  const $$=(s,c=document)=>Array.from(c.querySelectorAll(s));
+
+  const init=()=>{
+    // Story chapters: preserve DOM and styling, only add motion classes.
+    const groups=[
+      '.section-title',
+      '.service-card',
+      '.feature-chip',
+      '.step-card',
+      '.timeline-item',
+      '.booking-note',
+      '.join-content',
+      '.faq details',
+      '.cta-box',
+      '.social-grid a',
+      '.footer-grid > div'
+    ];
+
+    const els=$$(groups.join(','));
+    els.forEach((el,i)=>{
+      el.classList.add('hr-story');
+      if(i%3===1) el.classList.add('hr-left');
+      if(i%3===2) el.classList.add('hr-right');
+      el.style.transitionDelay=((i%4)*65)+'ms';
+    });
+
+    const io=new IntersectionObserver(entries=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('hr-in');
+          io.unobserve(entry.target);
+        }
+      });
+    },{threshold:.12,rootMargin:'0px 0px -7% 0px'});
+
+    els.forEach(el=>io.observe(el));
+
+    // Mobile service slider: emphasize the card centered in the viewport.
+    const cards=$$('.service-card');
+    if(cards.length){
+      const focusIO=new IntersectionObserver(entries=>{
+        let best=null;
+        entries.forEach(e=>{
+          if(e.isIntersecting && (!best || e.intersectionRatio>best.intersectionRatio)) best=e;
+        });
+        if(best && best.intersectionRatio>.58){
+          cards.forEach(c=>c.classList.remove('hr-focus'));
+          best.target.classList.add('hr-focus');
+        }
+      },{threshold:[.45,.58,.7,.82],rootMargin:'0px -8% 0px -8%'});
+      cards.forEach(c=>focusIO.observe(c));
+    }
+
+    // Progress + parallax
+    let raf=0;
+    const tick=()=>{
+      const max=Math.max(1,document.documentElement.scrollHeight-innerHeight);
+      const p=Math.min(1,Math.max(0,scrollY/max));
+      document.documentElement.style.setProperty('--hr-story-progress',p.toFixed(4));
+      document.documentElement.style.setProperty('--hr-parallax',(scrollY*.045).toFixed(1)+'px');
+      raf=0;
+    };
+    addEventListener('scroll',()=>{
+      if(!raf) raf=requestAnimationFrame(tick);
+    },{passive:true});
+    tick();
+  };
+
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init);
+  else init();
+})();
+</script>
+
+</body>
+</html>
