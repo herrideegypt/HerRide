@@ -1,0 +1,55 @@
+ان وتنظيم إلى باب البيت.</p>
+            <a class="service-btn book-link" href="https://herride.pages.dev/orders/index.html" data-i18n="delivery_btn">احجزي توصيل أوردر</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section feature-strip" id="safety" aria-label="HerRide features">
+      <div class="feature-chip reveal"><span>🛡️</span><div><h3 data-i18n="why1_title">أمانك أولًا</h3><p data-i18n="why1_text">راحة وخصوصية في كل رحلة.</p></div></div>
+      <div class="feature-chip reveal"><span>🔒</span><div><h3 data-i18n="why2_title">خصوصيتك تهمنا</h3><p data-i18n="why2_text">بياناتك ورحلتك في أمان.</p></div></div>
+      <div class="feature-chip reveal"><span>🌸</span><div><h3 data-i18n="why3_title">للسيدات فقط</h3><p data-i18n="why3_text">تجربة مصممة للسيدات والعائلات.</p></div></div>
+      <div class="feature-chip reveal"><span>⭐</span><div><h3 data-i18n="why4_title">خدمة احترافية</h3><p data-i18n="why4_text">تنظيم ومتابعة والتزام.</p></div></div>
+    </section>
+
+    <section class="section how" id="how">
+      <div class="section-title reveal how-title">
+        <h2 data-i18n="how_title">كيف تعمل الخدمة؟</h2>
+        <span data-i18n="how_label">في 3 خطوات بسيطة</span>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item"><b>1</b><div><h3 data-i18n="step1_title">اختاري الخدمة</h3><p data-i18n="step1_text">اختاري الخدمة المناسبة من خدمات HerRide.</p></div></div>
+        <div class="timeline-line"></div>
+        <div class="timeline-item"><b>2</b><div><h3 data-i18n="step2_title">املئي نموذج الحجز</h3><p data-i18n="step2_text">املئي بيانات الرحلة بدقة.</p></div></div>
+        <div class="timeline-line"></div>
+        <div class="timeline-item"><b>3</b><div><h3 data-i18n="step3_title">نؤكد معك التفاصيل</h3><p data-i18n="step3_text">يتواصل معك فريق HerRide لتأكيد الطلب.</p></div></div>
+      </div>
+      <div class="notice reveal"><span>🕒</span><p data-i18n="notice_30">يرجى حجز الرحلة قبل الموعد بـ على الأقل لضمان تأكيد الطلب.</p></div>
+    </section>
+
+    <section class="section join" id="join">
+      <div class="section-title reveal join-heading"><span data-i18n="join_label">نجمات HerRide</span><h2 data-i18n="join_title">انضمي إلى نجمات HerRide</h2></div>
+      <div class="join-content reveal">
+        <p data-i18n="join_text">انضمي إلى نجمات HerRide، وكوني جزءًا من رحلة نجاح ملهمة، في بيئة احترافية تدعم السيدات وتفتح لكِ فرصًا جديدة للنمو والاستقلال.</p>
+        <a class="main-btn" href="https://wa.me/201010756972?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D9%86%D8%B6%D9%85%D8%A7%D9%85%20%D9%83%D9%83%D8%A7%D8%A8%D8%AA%D9%86%20%D9%81%D9%8A%20HerRide." target="_blank" rel="noopener" data-i18n="join_btn">انضمي ككابتن</a>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-title reveal faq-heading"><span>FAQ</span><h2 data-i18n="faq_title">الأسئلة الشائعة</h2></div>
+      <div class="faq-list">
+        <details class="reveal" open><summary data-i18n="faq1_q">كيف يمكنني حجز رحلة؟</summary><p data-i18n="faq1_a">اختاري الخدمة المناسبة ثم اضغطي على زر الحجز وأكملي نموذج الطلب.</p></details>
+        <details class="reveal"><summary data-i18n="faq2_q">قبل كم من الوقت يجب حجز الرحلة؟</summary><p data-i18n="faq2_a">يرجى الحجز قبل الموعد بـ 30 دقيقة على الأقل لضمان توفر الخدمة.</p></details>
+        <details class="reveal"><summary data-i18n="faq3_q">ما هي خدمات HerRide؟</summary><p data-i18n="faq3_a">رحلة، رحلة مطار، دورة مدرسية، رحلة سفر، تعليم قيادة، وتوصيل أوردر.</p></details>
+        <details class="reveal"><summary data-i18n="faq4_q">ما المناطق التي تغطيها HerRide؟</summary><p data-i18n="faq4_a">تعمل HerRide حاليًا في القاهرة والجيزة والقليوبية.</p></details>
+        <details class="reveal"><summary data-i18n="faq5_q">هل الخدمة للسيدات فقط؟</summary><p data-i18n="faq5_a">HerRide مصممة لتقديم تجربة آمنة ومريحة للسيدات والعائلات وفقًا لسياسة الشركة.</p></details>
+        <details class="reveal"><summary data-i18n="faq6_q">كيف يتم الدفع؟</summary><p data-i18n="faq6_a">يتم توضيح تفاصيل الدفع أثناء تأكيد الحجز مع فريق HerRide.</p></details>
+        <details class="reveal"><summary data-i18n="faq7_q">كيف أنضم إلى نجمات HerRide؟</summary><p data-i18n="faq7_a">من خلال زر انضمي ككابتن واتباع خطوات التسجيل.</p></details>
+        <details class="reveal"><summary data-i18n="faq8_q">كيف أتواصل مع الدعم؟</summary><p data-i18n="faq8_a">يمكنك التواصل معنا عبر واتساب أو تيليجرام أو البريد الإلكتروني الموجود في نهاية الموقع.</p></details>
+      </div>
+    </section>
+
+    <section class="section final-cta" id="book">
+      <div class="cta-box reveal">
+        <h2 data-i18n="cta_title">جاهزة لرحلتك القادمة؟</h2>
+        <p data-i
